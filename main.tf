@@ -17,7 +17,7 @@ provider "aws" {
     tags = {
       owner      = "diogofiaminghi"
       managed-by = "terraform"
-#      situacao   = "deve-ser-apagado"
+      situacao   = "deve-ser-apagado"
 
     }
   }
