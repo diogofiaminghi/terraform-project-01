@@ -22,3 +22,5 @@ provider "aws" {
     }
   }
 }
+
+# gostou do curso? quer mais?
