@@ -23,4 +23,4 @@ provider "aws" {
   }
 }
 
-# gostou do curso? quer mais?
+# gostou do curso?
