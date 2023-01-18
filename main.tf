@@ -8,6 +8,12 @@ terraform {
       version = "4.48.0"
     }
   }
+
+  backend "s3" {
+    bucket = "diogofiaminghi-bucket-terraform"
+    key    = "aws-vpc/terraform.tfstate"
+    region = "us-east-1"
+  }
 }
 
 provider "aws" {
@@ -22,5 +28,3 @@ provider "aws" {
     }
   }
 }
-
-# gostou do curso?
