@@ -7,30 +7,19 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/README-ecoleta?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diogofiaminghi/terraform-project-01?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/diogofiaminghi/terraform-project-01">
 
-  <a href="https://www.twitter.com/tgmarinho/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2FREADME-ecoleta">
-  </a>
-  
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
+   <a href="https://github.com/diogofiaminghi/terraform-project-01/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/diogofiaminghi/terraform-project-01">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/README-ecoleta?style=social">
+	
+   <a href="https://github.com/diogofiaminghi/terraform-project-01/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/diogofiaminghi/terraform-project-01?style=social">
   </a>
-
-  <a href="https://rocketseat.com.br">
-    <img alt="made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
-  </a>
-  
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
-    </a> 
 </p>
 
 
@@ -275,8 +264,8 @@ You are an awesome team! :)
  <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat"></a>
  <br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/tgmarinho) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:tgmarinho@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Diogo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diogofiaminghi/)](https://www.linkedin.com/in/diogofiaminghi/) 
+[![Gmail Badge](https://img.shields.io/badge/-diogofiaminghi@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:diogofiaminghi@gmail.com)](mailto:diogofiaminghi@gmail.com)
 
 ---
 
