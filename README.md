@@ -107,10 +107,19 @@ terraform plan -out=plan.out
 terraform apply plan.out
 ```
 
+8 - Now, to prove that everything worked, get the 'vm_ip' in 'output' and let's connect via ssh to the newly created instance.
+
+```bash
+ssh -i aws-key ubuntu@the-public-ip-here
+```
+```bash
+exit
+```
+
+9 - Do not forget to destroy the provisioned structure otherwise you will be able to receive invoices.
 ```bash
 terraform destroy
 ```
-
 
 ---
 
