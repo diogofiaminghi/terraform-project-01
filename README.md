@@ -30,17 +30,17 @@
 <p align="center">
  <a href="#description">Description</a> •
  <a href="#pre-requisites">Pre-requisites</a> • 
- <a href="#how-it-works">How it works obrigatorio</a> • 
- <a href="#tech-stack">Tech Stack obrigatorio</a> • 
+ <a href="#how-it-works">How it works</a> • 
+ <a href="#tech-stack">Tech Stack</a> • 
  <a href="#author">Author</a> • 
- <a href="#user-content-license">License</a>
+ <a href="#license">License</a>
 
 </p>
 
 
 ## Description
 
-This project provisions a VPC and an EC2 instance on AWS through Terraform. In this project, the terraform.tfstate file is stored remotely in an S3 bucket. In addition, we have the creation of a Subnet, AWS Internet Gateway, Route Table and AWS Security Group. Finally, an EC2 instance is created within the Subnet.
+This project provisions a VPC and an EC2 instance on AWS through Terraform. In this project, the terraform.tfstate file is stored remotely in an S3 bucket. In addition, we have the creation of a Subnet, AWS Internet Gateway, Route Table and AWS Security Group. Finally, an EC2 instance is created within the Subnet. All resources will be created in the us-east-1 region.
 
 ---
 
@@ -54,6 +54,20 @@ In addition, it is good to have an editor to work with the code like [VSCode] (h
 ---
 
 ## How it works
+
+1 - Clone this repository
+
+```bash
+git clone git@github.com:diogofiaminghi/terraform-project-01.git
+```
+
+2 - Create an S3 bucket on AWS.
+
+3 - Edit the main.tf file. On line 13, paste the name of your S3 bucket.
+
+```bash
+bucket = "your-S3-bucket-name-here"
+```
 
 This project is divided into three parts:
 1. Backend (server folder)
