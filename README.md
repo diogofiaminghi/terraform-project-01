@@ -55,78 +55,62 @@ In addition, it is good to have an editor to work with the code like [VSCode] (h
 
 ## How it works
 
-1 - Clone this repository
+1 - Clone this repository.
 
 ```bash
 git clone git@github.com:diogofiaminghi/terraform-project-01.git
 ```
 
-2 - Create an S3 bucket on AWS.
+2 - Create an S3 bucket on AWS manually.
 
-3 - Edit the main.tf file. On line 13, paste the name of your S3 bucket.
+3 - Open de Project Folder in VSCode
+
+4 - Edit the main.tf file. On line 13, paste the name of your S3 bucket.
 
 ```bash
 bucket = "your-S3-bucket-name-here"
 ```
 
-This project is divided into three parts:
-1. Backend (server folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
-
-Both Frontend and Mobile need the Backend to be running to work.
-
-
-
-#### Rodando o Backend (servidor)
+5 - Open a new bash terminal in VSCode. Create an SSH key pair named 'aws-key'.
 
 ```bash
-
-# Clone this repository
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
-
-# Access the project folder cmd/terminal
-$ cd README-ecoleta
-
-# go to the server folder
-$ cd server
-
-# install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm run dev:server
-
-# The server will start at port: 3333 - go to http://localhost:3333
-
+ssh-keygen
 ```
-<p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
 
-
-#### Running the web application (Frontend)
+6 - You must now configure your AWS Access Keys using the bash terminal.
 
 ```bash
-
-# Clone this repository
-$ git clone git@github.com: tgmarinho / README-ecoleta.git
-
-# Access the project folder in your terminal
-$ cd README-ecoleta
-
-# Go to the Front End application folder
-$ cd web
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm run start
-
-# The application will open on the port: 3000 - go to http://localhost:3000
-
+export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXX
 ```
+```bash
+export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+7 - Terraform Commands in Project Folder
+```bash
+terraform init
+```
+
+```bash
+terraform fmt
+```
+
+```bash
+terraform validate
+```
+
+```bash
+terraform plan -out=plan.out
+```
+
+```bash
+terraform apply plan.out
+```
+
+```bash
+terraform destroy
+```
+
 
 ---
 
