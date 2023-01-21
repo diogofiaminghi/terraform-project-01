@@ -2,9 +2,9 @@
    <a href="#"> Terraform Project 01 </a>
 </h1>
 
-<h3 align="center">
+<h2 align="center">
     VPC and EC2 provisioning on AWS using Terraform
-</h3>
+</h2>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diogofiaminghi/terraform-project-01?color=%2304D361">
@@ -29,8 +29,7 @@
 
 <p align="center">
  <a href="#description">Description</a> •
- <a href="#features">Features opcional</a> •
- <a href="#layout">Pre requisitos obrigatorio</a> • 
+ <a href="#pre-requisites">Pre-requisites</a> • 
  <a href="#how-it-works">How it works obrigatorio</a> • 
  <a href="#tech-stack">Tech Stack obrigatorio</a> • 
  <a href="#author">Author</a> • 
@@ -45,50 +44,12 @@ This project provisions a VPC and an EC2 instance on AWS through Terraform. In t
 
 ---
 
-## Features
+## Pre-requisites
 
-- [x] Companies or entities can register on the web platform by sending:
-   - [x] an image of the collection point
-   - [x] entity name, email and whatsapp
-   - [x] and the address so that it can appear on the map
-   - [x] in addition to selecting one or more collection items:
-     - lamps
-     - Batteries
-     - papers and cardboard
-     - electronic waste
-     - organic waste
-     - kitchen oil
-
-- [x] Users have access to the mobile application, where they can:
-   - [x] browse the map to see the registered institutions
-   - [x] contact the entity via E-mail or WhatsApp
-
----
-
-## Layout
-
-The application layout is available on Figma:
-
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
-
-
-### Mobile
-
-<p align="center">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/home-mobile.png" width="200px">
-
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/detalhes-mobile.svg" width="200px">
-</p>
-
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/web.svg" width="400px">
-
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/sucesso-web.svg" width="400px">
-</p>
+Before you begin, you will need to have the following tools installed on your machine:
+[Terraform] (https://www.terraform.io/) and [Git] (https://git-scm.com).
+You will need to have a [AWS Account] (https://aws.amazon.com/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/).
 
 ---
 
@@ -101,11 +62,7 @@ This project is divided into three parts:
 
 Both Frontend and Mobile need the Backend to be running to work.
 
-### Pre-requisites
 
-Before you begin, you will need to have the following tools installed on your machine:
-[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
-In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
 #### Rodando o Backend (servidor)
 
