@@ -41,8 +41,7 @@
 
 ## Description
 
-♻️ Ecoleta - is a way to connect companies and entities that collect organic and inorganic waste to people who need to dispose of their waste in an ecological way.
-Project developed during ** NLW - Next Level Week ** offered by [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/). NLW is an online experience with lots of practical content, challenges and hacks where the content is available for a week.
+This project provisions a VPC and an EC2 instance on AWS through Terraform. In this project, the terraform.tfstate file is stored remotely in an S3 bucket. In addition, we have the creation of a Subnet, AWS Internet Gateway, Route Table and AWS Security Group. Finally, an EC2 instance is created within the Subnet.
 
 ---
 
