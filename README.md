@@ -110,7 +110,7 @@ terraform apply plan.out
 8 - Now, to prove that everything worked, get the 'vm_ip' in 'output' and let's connect via ssh to the newly created instance.
 
 ```bash
-ssh -i aws-key ubuntu@the-public-ip-here
+ssh -i "aws-key" ubuntu@the-public-ip-here
 ```
 ```bash
 exit
